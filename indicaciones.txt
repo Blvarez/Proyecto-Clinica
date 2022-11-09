@@ -1,0 +1,7 @@
+Tienes que hacer el disenio tipo como lo vamos a ver por pantalla  aprendete en freecodecamp la parte de css para 
+que veas de sirven los padding margin position etc para que veas como ordenar las imagenes
+
+Buscate las imagenes que utilizaremos acuerdate que es una clinica buscate un background(se llama la imagen de fondo)
+buscate tipo de una wallpaper hd de una clinica para poner de fondo en el inicio de sesion
+
+Tienes que buscar todas las imagenes por link no descargarlas mas facil
