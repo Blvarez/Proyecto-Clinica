@@ -1,0 +1,16 @@
+Pasos para clonar:
+
+te vas al repositorio
+apretas code
+clone https
+copiar el link
+
+creas una carpeta donde lo quieres guardar tipo ProyectoDesarrollo
+te vas a esa carpeta a traves de git
+ingresas este comando : git clone LINK
+
+Abres la carpeta en visual code
+
+Librerias instalas a traves de visual code
+npm i next react react-dom
+npm i bootswatch
