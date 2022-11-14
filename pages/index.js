@@ -1,12 +1,14 @@
-import Layout from "../components/Layout"
+import Layout from "../components/Layout";
+
 const Index = () => (
 
-    <Layout>
-    
-    <h1>Hello world</h1>
-    
-    </Layout>
+    <>
+        <Layout />
+        <h1 className="hello">Hello World</h1>
+        <section className="seccionInicio">
+        </section>
 
+    </>
 )
 
 

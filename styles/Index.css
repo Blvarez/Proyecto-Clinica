@@ -1,0 +1,22 @@
+.hello
+{
+    text-decoration: underline;
+    float: right;
+}
+
+.seccionInicio
+{
+    height: 650px;
+    background: blue;
+    border: solid;
+}
+
+
+.botonIndex
+{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
