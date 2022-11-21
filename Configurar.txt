@@ -1,8 +1,12 @@
 Editor de codigo utilizado: Visual Studio Code
 
 Librerias:
-    npm i next react react-dom
-    npm i bootswatch
+    -npm i next react react-dom
+    -npm i bootswatch
+    -npm i serverless-mysql //Este no se si sera obligatorio no lo instale a no ser que le tire un error 
+      en el modulo que se importa
+    -npm i mysql2
+    -npm i axios
 
 Comando de inicio:
     npm run dev
