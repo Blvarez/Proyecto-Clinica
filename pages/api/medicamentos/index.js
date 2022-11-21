@@ -29,6 +29,6 @@ const guardarMedicamento = async (req, res) => {
     })
 
     console.log(result);
-    return res.status(200).json({ cod_medicamento, formato, descripcion, stock, id: result.insertId });
+    return res.status(200).json({ cod_medicamento, formato, descripcion, stock});
 }
 
