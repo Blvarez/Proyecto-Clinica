@@ -34,7 +34,7 @@ export function MedicamentosForm() {
             <form onSubmit={handleSubmit}>
 
                 <div className="form-group formM">
-                    <input type="text" className="col-6" name="cod_medicamento" id="cod_medicamento" placeholder="Ingrese Codigo de Medicamento" onChange={handleChange} />
+                    <input type="number" className="col-6" name="cod_medicamento" id="cod_medicamento" placeholder="Ingrese Codigo de Medicamento" onChange={handleChange} />
                 </div>
                 
                 <div className="form-group formM">
@@ -46,7 +46,7 @@ export function MedicamentosForm() {
                 </div>
 
                 <div className="form-group formM">
-                    <input type="text" className="col-6" id="stock" name="stock"  placeholder="Ingrese Stock" onChange={handleChange} />
+                    <input type="number" className="col-6" id="stock" name="stock"  placeholder="Ingrese Stock" onChange={handleChange} />
                 </div>
 
                 <button className="botonMr">Guardar Medicamento</button>
