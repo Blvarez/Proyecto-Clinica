@@ -1,0 +1,46 @@
+.regPac {
+    height: 545px;
+    background-image: linear-gradient(120deg, #EBEDF0 0%, #8C8E90 100%);
+}
+
+.registroP{
+    max-width: 978px;
+    width: 800px;
+    display: flex;
+    border: 4px;
+    border-radius: 5px;
+    background-image: linear-gradient(120deg, #EBEDF0 0%, gray 100%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-top:60px;
+    margin-left: 240px;
+    position:absolute;
+}
+
+.columna2 {
+    position: absolute;
+    height: 250px;
+    margin-left: 360px;
+    margin-top: 140px;
+}
+
+.tcl11{
+    margin-top: 10px;
+    margin-left: 190px;
+}
+
+.tcl22 {
+    margin-left: 200px;
+}
+
+.formP
+{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.botonPr
+{
+    margin-top:15px;
+    margin-left: 90px;
+}
