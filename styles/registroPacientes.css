@@ -17,12 +17,6 @@
     position:absolute;
 }
 
-.columna2 {
-    position: absolute;
-    height: 250px;
-    margin-left: 360px;
-    margin-top: 140px;
-}
 
 .tcl11{
     margin-top: 10px;
@@ -43,4 +37,10 @@
 {
     margin-top:15px;
     margin-left: 90px;
+}
+
+.botonPr:hover
+{
+    background-color: gray;
+
 }

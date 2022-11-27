@@ -1,5 +1,6 @@
 import axios from 'axios';
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 export function MedicamentosForm() {
 
@@ -12,12 +13,15 @@ export function MedicamentosForm() {
     });
 
 
+    const router = useRouter();  
+
 
     const handleSubmit = async (e) => { 
 
         e.preventDefault();
         const res = await axios.post('/api/medicamentos', { ...medicamento })
         console.log(res);
+        router.push("/medicamentos/homeMedicamentos")
     };
 
     const handleChange = ({ target: { name, value } }) =>{

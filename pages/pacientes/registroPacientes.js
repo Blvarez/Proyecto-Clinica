@@ -8,7 +8,7 @@ const registroPacientes = () => (
         <div className="regPac">
                 <div className="registroP">
 
-                    <div cassName="columna1">
+                    <div className="columna1">
 
                         <h2 className="tcl11">Registro de Pacientes</h2>
                         <span className="tcl22">Agregar Datos para Ingresar un Nuevo Paciente</span>

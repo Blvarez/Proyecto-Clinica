@@ -7,7 +7,13 @@ const Navbar = () => (
             <ul className="navbar-nav mr-auto">
 
                 <li className="nav-item active">
-                    <a className="nav-link active" href="#">Medicamentos</a>
+                    <a className="nav-link active" href="/medicamentos/homeMedicamentos">Medicamentos</a>
+                </li>
+                <li className="nav-item active">
+                    <a className="nav-link active" href="/pacientes/homePacientes">Pacientes</a>
+                </li>
+                <li className="nav-item active">
+                    <a className="nav-link active" href="/recetas/homeRecetas">RECETAS</a>
                 </li>
 
 
@@ -25,9 +31,6 @@ const Navbar = () => (
             <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
                     <a className="botonIndex" href="/registro"> REGISTRO</a>
-                </li>
-                <li className="nav-item">
-                    <a className="botonIndex" href="/iniciarsesion"> INICIAR SESION</a>
                 </li>
             </ul>
         </div>

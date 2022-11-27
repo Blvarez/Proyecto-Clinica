@@ -9,7 +9,11 @@ const registro = () => (
             </div>
 
             <div className="principalRegistroMedi">
-                <a className="registroMedi" href="/medicamentos/registroMedicamentos">REGISTRAS MEDICAMENTOS</a>
+                <a className="registroMedi" href="/medicamentos/registroMedicamentos">REGISTRAR MEDICAMENTOS</a>
+            </div>
+
+            <div className="principalRegistroRece">
+                <a className="registroRece" href="/recetas/registroRecetas">REGISTRAR RECETAS</a>
             </div>
 
         </div>

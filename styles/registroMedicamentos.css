@@ -42,3 +42,8 @@
     margin-top:15px;
     margin-left: 90px;
 }
+
+.botonMr:hover
+{
+    background-color: gray;
+}
