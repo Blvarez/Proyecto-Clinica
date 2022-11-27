@@ -4,6 +4,8 @@ import "../styles/registro.css";
 import "../styles/registroPacientes.css";
 import "../styles/registroMedicamentos.css";
 import "../styles/registroRecetas.css";
+import "../styles/vistaMedi.css";
+import "../styles/vistaPac.css";
 
 function MyApp({ Component, pageProps })
 {

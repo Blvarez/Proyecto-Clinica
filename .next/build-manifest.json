@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/medicamentos/homeMedicamentos": [
+    "/recetas/[cod_receta]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/medicamentos/homeMedicamentos.js"
+      "static/chunks/pages/recetas/[cod_receta].js"
     ]
   },
   "ampFirstPages": []

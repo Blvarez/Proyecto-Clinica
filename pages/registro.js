@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 const registro = () => (
     <>
         <Layout />
-        <div className="cuadradoRegistro">
+        <div className="cuadradoGeneral">
 
             <div className="principalRegistroPaci">
                 <a className="registroPaciente" href="/pacientes/registroPacientes">REGISTRAR PACIENTES</a>

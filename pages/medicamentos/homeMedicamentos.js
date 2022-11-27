@@ -9,10 +9,10 @@ const homeMedicamentos = ({ medicamentos }) => {
             <Layout />
             <h1>Medicamentos</h1>
 
-            {medicamentos.map(medicamento => (
-                <Link href="/medicamentos/${medicamento.cod_medicamento}">
-                    <div key={medicamento.cod_medicamento} className="border border-gray-200 shadow-md p-10">
-                        <h1>{medicamento.cod_medicamento}</h1>
+            {medicamentos.map((medicamento) => (
+                <Link href={'/medicamentos/'+medicamento.cod_medicamento}  key={medicamento.cod_medicamento}>
+                    <div className="border border-gray-200 shadow-md p-50 ">
+                        <h2>{medicamento.cod_medicamento}</h2>
                         <p>{medicamento.descripcion}</p>
                         <h4>{medicamento.formato}</h4>
                         <h4>{medicamento.stock}</h4>

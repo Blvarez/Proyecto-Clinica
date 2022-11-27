@@ -1,0 +1,42 @@
+
+.imagenMedi
+{
+    height: 500px;
+    z-index: 0;
+    margin-left: 260px;
+}
+
+.vistaMedCod
+{
+    z-index: 1;
+    position:absolute;
+    margin-left: 400px ;
+    margin-top: -330px;
+}
+
+.vistaMedFor
+{
+    z-index:1;
+    position:absolute;
+    margin-left:400px;
+    margin-top:-280px;
+}
+
+.cuadradoDescripcion
+{
+    z-index:1;
+    height: 90px;
+    width: 450px;
+    margin-left: 400px;
+    position: absolute;
+    margin-top:-250px;
+}
+
+
+.vistaMedSto
+{
+    z-index:1;
+    position:absolute;
+    margin-left:670px;
+    margin-top: -160px;
+}

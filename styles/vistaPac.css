@@ -1,0 +1,63 @@
+.imagenPaci
+{
+    z-index: 0;
+    height: 400px;
+    width:500px;
+    margin-left: 370px;
+    margin-top: 70px;
+}
+
+.tituloVistaPac
+{
+    z-index: 1;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 400px;
+}
+
+.vistaPacRut
+{
+    z-index:1;
+    position:absolute;
+    margin-top: -330px;
+    margin-left: 400px;
+    font-size: 22px;
+}
+
+.vistaPacNom
+{
+    z-index:1;
+    position:absolute;
+    margin-top: -290px;
+    margin-left: 400px;
+    font-size: 22px;
+}
+
+.vistaPacEda
+{
+    z-index:1;
+    position:absolute;
+    margin-top: -250px;
+    margin-left: 400px;
+    font-size: 22px;
+}
+
+.vistaPacFon
+{
+    z-index:1;
+    position:absolute;
+    margin-top: -210px;
+    margin-left: 400px;
+    font-size: 22px;
+}
+
+.cuadradoDiagnostico
+{
+    z-index:1;
+    height: 150px;
+    width: 400px;
+    margin-left: 400px;
+    position: absolute;
+    margin-top:-180px;
+    text-align: justify;
+}
