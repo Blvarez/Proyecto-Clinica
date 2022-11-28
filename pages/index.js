@@ -4,7 +4,7 @@ const Index = () => (
 
     <div>
     <Layout/>
-    <div className="cuadradoGeneral">
+    <div className="cuadradoGenerall">
     <h3 className="tituloIndex" ><strong>Bienvenido a esta pagina para manipular Recetas, Medicamentos y Pacientes!!!</strong></h3>
     <div className="giftPrincipal"></div>
     </div>

@@ -40,3 +40,10 @@
     margin-top: 20px;
     margin-left: 25px;
 }
+
+.cuadradoGenerall
+{
+    height: 616px;
+    border: solid;
+    background-image: linear-gradient(120deg, #EBEDF0 0%, #8C8E90 100%);
+}
