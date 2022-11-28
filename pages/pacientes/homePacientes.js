@@ -8,19 +8,24 @@ const homePacientes = ({ pacientes }) => {
 
         <div>
             <Layout />
-            <h1>PACIENTES</h1>
+            <div className="cuadradoGeneral">
 
-            {pacientes.map((paciente) => (
-                <Link href={'/pacientes/'+paciente.rut} key={paciente.rut}>
-                    <div className="border border-gray-200 shadow-md p-50 ">
-                        <h1>{paciente.rut}</h1>
-                        <h2>{paciente.nombre}</h2>
-                        <h4>{paciente.fono}</h4>
-                        <h4>{paciente.edad}</h4>
-                        <p>{paciente.diagnostico}</p>
+            <h3 className="titHomePac">Para Eliminar o Editar seleccione uno!</h3>
+
+                {pacientes.map((paciente) => (
+                    <div className="principalHomePac">
+                    <Link className="decoration" href={'/pacientes/' + paciente.rut} key={paciente.rut}>
+                        <div className="border border-gray-200 shadow-md p-50 ">
+                            <h1><u>Rut:</u> {paciente.rut}</h1>
+                            <h2><u>Nombre:</u> {paciente.nombre}</h2>
+                            <h4><u>Fono:</u> {paciente.fono}</h4>
+                            <h4><u>Edad:</u> {paciente.edad}</h4>
+                            <p><u>Diagnostico:</u> {paciente.diagnostico}</p>
+                        </div>
+                    </Link>
                     </div>
-                </Link>
-            ))}
+                ))}
+            </div>
         </div>
     )
 

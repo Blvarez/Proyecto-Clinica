@@ -7,18 +7,23 @@ const homeMedicamentos = ({ medicamentos }) => {
     return (
         <div>
             <Layout />
-            <h1>Medicamentos</h1>
+            <div className="cuadradoGeneral">
 
-            {medicamentos.map((medicamento) => (
-                <Link href={'/medicamentos/'+medicamento.cod_medicamento}  key={medicamento.cod_medicamento}>
-                    <div className="border border-gray-200 shadow-md p-50 ">
-                        <h2>{medicamento.cod_medicamento}</h2>
-                        <p>{medicamento.descripcion}</p>
-                        <h4>{medicamento.formato}</h4>
-                        <h4>{medicamento.stock}</h4>
+                <h3 className="titHomeMedi">Para Eliminar o Editar seleccione uno!</h3>
+
+                {medicamentos.map((medicamento) => (
+                    <div className="principalHomeMedi">
+                        <Link className="decoration" href={'/medicamentos/' + medicamento.cod_medicamento} key={medicamento.cod_medicamento}>
+                            <div className="border border-black-200 shadow-md p-50 ">
+                                <h2><u>Cod. Medicamento:</u> {medicamento.cod_medicamento}</h2>
+                                <p><u>Descripcion:</u>{medicamento.descripcion}</p>
+                                <h4><u>Formato:</u>{medicamento.formato}</h4>
+                                <h4><u>Stock:</u>{medicamento.stock}</h4>
+                            </div>
+                        </Link>
                     </div>
-                </Link>
-            ))}
+                ))}
+            </div>
         </div>
     )
 

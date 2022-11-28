@@ -1,3 +1,20 @@
+/*VISTA GRUPAL*/
+.principalHomePac
+{
+    border: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titHomePac
+{
+    margin-left: 330px;
+    margin-top: 15px;
+}
+
+
+/*VISTA INDIVIDUAL*/
 .imagenPaci
 {
     z-index: 0;
@@ -60,4 +77,31 @@
     position: absolute;
     margin-top:-180px;
     text-align: justify;
+}
+
+
+.elimPac
+{
+    background: #F88585 ;
+    margin-left: 60px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.elimPac:hover
+{
+    background: red;
+}
+
+.editPac
+{
+    background: #7E93FA;
+    margin-left: 60px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.editPac:hover
+{
+    background: blue;
 }

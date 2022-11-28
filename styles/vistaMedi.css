@@ -1,9 +1,26 @@
+/*VISTA GRUPAL*/
+.principalHomeMedi
+{
+    border: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.titHomeMedi
+{
+    margin-left: 330px;
+    margin-top: 15px;
+}
+
+
+/*VISTA INDIVIDUAL*/
 .imagenMedi
 {
     height: 500px;
     z-index: 0;
     margin-left: 260px;
+    margin-top: 20px;
 }
 
 .vistaMedCod
@@ -39,4 +56,31 @@
     position:absolute;
     margin-left:670px;
     margin-top: -160px;
+}
+
+
+.elimMed
+{
+    background: #F88585 ;
+    margin-left: 60px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.elimMed:hover
+{
+    background: red;
+}
+
+.editMed
+{
+    background: #7E93FA;
+    margin-left: 60px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.editMed:hover
+{
+    background: blue;
 }

@@ -20,3 +20,23 @@
     background-color: white;
     color: black;
 }
+
+.decoration{
+    text-decoration: none;
+}
+
+.giftPrincipal
+{
+    background-image: url(https://media.giphy.com/media/SqIVSReiKpNAEnhAD6/giphy.gif);
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-left: 380px;
+}
+
+.tituloIndex
+{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+}

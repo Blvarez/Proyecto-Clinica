@@ -1,0 +1,170 @@
+/*VISTA GRUPAL*/
+.principalHomeRec
+{
+    border: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titHomeRec
+{
+    margin-left: 330px;
+    margin-top: 15px;
+}
+
+
+/*VISTA INDIVIDUAL*/
+.imagenRece
+{
+    z-index: 0;
+    height: 450px;
+    margin-left: 440px;
+    margin-top: 40px;
+}
+
+.cBlanco1
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #F8FBFD;
+    margin-top: -105px;
+    margin-left: 460px;
+    z-index: 1;
+}
+
+.cBlanco2
+{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background-color: #F8FBFD;
+    margin-top: -250px;
+    margin-left: 470px;
+    z-index: 1;
+}
+
+.rutFor
+{
+    position: absolute;
+    padding: 1px;
+    background: #F8FBFD;
+    margin-top: -425px;
+    margin-left: 545px;
+    z-index: 1;
+    font-size: 10px;
+}
+
+.fechaFor
+{
+    position: absolute;
+    padding: 1px;
+    background: #F8FBFD;
+    margin-top: -353px;
+    margin-left: 631px;
+    z-index: 1;
+    font-size: 10px;
+}
+
+.cantFor
+{
+    position: absolute;
+    margin-top: -299px;
+    margin-left: 685px;
+    z-index: 1;
+    font-size: 10px;
+}
+
+.codMFor
+{
+    position: absolute;
+    margin-top: -299px;
+    margin-left: 460px;
+    z-index: 1;
+    font-size: 10px;
+}
+
+.codRFor
+{
+    position: absolute;
+    padding: 1px;
+    background: #F8FBFD;
+    margin-top: -46px;
+    margin-left: 565px;
+    z-index: 1;
+    font-size: 10px;
+}
+
+
+.vistaRecCod
+{
+    position: absolute;
+    margin-top: -48px;
+    margin-left: 700px;
+    z-index: 1;
+    font-size: 13px;
+}
+
+.vistaRecCan
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: -255px;
+    margin-left: 723px;
+    font-size: 14px;
+}
+
+.vistaRecRut
+{
+    position: absolute;
+    z-index: 1;
+    margin-top: -427px;
+    margin-left: 590px;
+    font-size: 13px;
+}
+
+.vistaRecMed
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: -255px ;
+    margin-left: 480px;
+    font-size: 14px;
+}
+
+.vistaRecFec
+{
+    position: absolute;
+    z-index: 1;
+    margin-top: -353px;
+    margin-left: 689px;
+    font-size: 9px;
+}
+
+.elimRec
+{
+    background: #F88585 ;
+    margin-left: 60px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.elimRec:hover
+{
+    background: red;
+}
+
+.editRec
+{
+    background: #7E93FA;
+    margin-left: 60px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.editRec:hover
+{
+    background: blue;
+}
+

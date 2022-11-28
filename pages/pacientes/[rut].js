@@ -1,8 +1,17 @@
 import Layout from "../../components/Layout";
 import axios from 'axios';
+import { useRouter } from "next/router";
+import Router from "next/router";
 
 function VistaPaciente({ paciente }) {
-    console.log(paciente);
+
+    const router = useRouter;
+
+    const handleDelete = async (rut) => {
+        const res = await axios.delete('/api/pacientes/' + rut)
+        Router.push("/pacientes/homePacientes")
+    }
+
     return (
         <div>
             <Layout />
@@ -16,6 +25,9 @@ function VistaPaciente({ paciente }) {
                 <div className="cuadradoDiagnostico">
                     <p><u>Diagnostico:</u>  {paciente.diagnostico}</p>
                 </div>
+            
+                <button className="elimPac" onClick={() => handleDelete(paciente.rut)}>ELIMINAR</button>
+                <button className="editPac" onClick={() => Router.push("/pacientes/editar/" + paciente.rut)}>EDITAR</button>
             </div>
 
         </div>

@@ -2,8 +2,13 @@ import Layout from "../components/Layout";
 
 const Index = () => (
 
-    <Layout></Layout>
-
+    <div>
+    <Layout/>
+    <div className="cuadradoGeneral">
+    <h3 className="tituloIndex" ><strong>Bienvenido a esta pagina para manipular Recetas, Medicamentos y Pacientes!!!</strong></h3>
+    <div className="giftPrincipal"></div>
+    </div>
+    </div>
 )
 
 

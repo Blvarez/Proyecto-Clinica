@@ -21,7 +21,7 @@ const Navbar = () => (
         </div>
 
         <div className="mx-auto order-0">
-            <a className="navbar-brand mx-auto" href="/#">DATA DE RECETAS Y MEDICAMENTOS</a>
+            <a className="navbar-brand mx-auto" href="/#">DATA DE RECETAS, MEDICAMENTOS Y PACIENTESs</a>
             <button onClick="window.location.href='/registro'" className="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
                 <span className="navbar-toggler-icon"></span>
             </button>
